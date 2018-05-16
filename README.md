@@ -24,3 +24,8 @@ plots the spectrogram of a given coarse channel nChanOI over multiple datasets t
 usage:  
 header_read.py  
 displays the raw header of file fname and gives some info on frequency span  
+
+# plot_block.py
+usage:  
+plot_block.py fname nBlocOI nResol nPol  
+plots spectrum of all coarse channels of a given data block nBlocOI at nResol-points resolution per coarse channel, polarization nPol
