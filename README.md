@@ -17,5 +17,10 @@ plots the spectrogram of a given coarse channel nChanOI over a single dataset, f
 
 # plot_coarse_spectrogram_multi.py
 usage:  
-plot_spectrogram_coarse.py fname0 fname1 fname2 ... nChanOI nResol nPol
+plot_spectrogram_coarse.py fname0 fname1 fname2 ... nChanOI nResol nPol  
 plots the spectrogram of a given coarse channel nChanOI over multiple datasets to which each of the given fname belong, frequency resolution nResol and polarization # nPol
+
+# header_read.py
+usage:  
+header_read.py  
+displays the raw header of file fname and gives some info on frequency span  
