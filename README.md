@@ -13,4 +13,9 @@ plots the PSD of a coarse channel over a single raw file around frequency fFreq,
 # plot_spectrogram_coarse.py
 usage:  
 plot_spectrogram_coarse.py fname nChanOI nResol nPol
-plots the spectrogram of a given coarse channel nChanOI over a dataset, frequency resolution nResol and polarization # nPol
+plots the spectrogram of a given coarse channel nChanOI over a single dataset, frequency resolution nResol and polarization # nPol
+
+# plot_coarse_spectrogram_multi.py
+usage:  
+plot_spectrogram_coarse.py fname0 fname1 fname2 ... nChanOI nResol nPol
+plots the spectrogram of a given coarse channel nChanOI over multiple datasets to which each of the given fname belong, frequency resolution nResol and polarization # nPol
