@@ -1,5 +1,6 @@
 # calculates the start time in seconds and MJD of a given RAW file.
 # call : python start_time_calc.py filename.raw
+# (code follows https://github.com/UCBerkeleySETI/breakthrough/blob/master/doc/Time-in-RAW-Files.md)
 
 import sys
 import math
