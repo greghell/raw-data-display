@@ -29,3 +29,8 @@ displays the raw header of file fname and gives some info on frequency span
 usage:  
 plot_block.py fname nBlocOI nResol nPol  
 plots spectrum of all coarse channels of a given data block nBlocOI at nResol-points resolution per coarse channel, polarization nPol
+
+# start_time_calc.py  
+usage:  
+start_time_calc.py fname.raw
+computes the starting time in seconds and MJD of the first block of the RAW file.
