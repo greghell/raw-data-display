@@ -11,7 +11,7 @@ currline = str(fread.read(80))          # reads first line
 while currline[0:3] != 'END':           # until reaching end of header
         currline = str(fread.read(80))  # read new header line
         if currline[0:9] == 'STT_IMJD=':        # read cenral frequency
-                                STT_IMJD = float(currline[9:])
+                STT_IMJD = float(currline[9:])
         if currline[0:9] == 'STT_SMJD=':        # read bandwidth
                 STT_SMJD = float(currline[9:])
         if currline[0:9] == 'PKTIDX  =':        # read block size
